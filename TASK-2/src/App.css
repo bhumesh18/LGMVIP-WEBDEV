@@ -1,0 +1,148 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color:white;
+}
+
+.App-link {
+  color: #fb616e;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+button{
+  color: white;
+  font-weight: 600;
+  float: right;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(12, 26, 224);
+  padding: 12px 10px;
+}
+button:hover{
+  transition: 200ms;
+ scale:1.03;
+ background-color: rgb(211, 59, 59);
+}
+
+.column1{
+  height: 150%;
+  float: left;
+  width: 90%;
+  
+}
+.column2{
+  height: 100%;
+  float: left;
+  width: 10%;
+  
+}
+.row{
+  height: 48px;
+  padding: 20px 50px 0px 30px ;
+  
+}
+
+.box{
+  background-color: rgb(8, 221, 236) !important;
+}
+
+.box2{
+  margin-left: 15px;
+  
+
+ 
+}
+
+.avatar{
+  border-radius: 50%;
+  
+}
+
+
+.column3{
+  float: left !important;
+ 
+  width: 33% !important;
+  background-color: antiquewhite;
+  
+  
+}
+h2{
+  margin-top: 0px;
+  padding-top: 0px;
+  text-align: center;
+  font-family: Comic Sans MS;
+  font-style: bold;
+  color:tomato;
+ 
+ }
+ link{
+   width:3px;
+   
+
+ }
+
+
+.profile {
+  border: 500px circle rgb(255, 166, 255);
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  max-width: 250px;
+  margin: 10px 5px;
+  text-align: center;
+  font-family:calibri;
+  padding: 15px;
+  border-radius: 18px;
+  background-color: rgb(125, 162, 231);
+  border-radius: 15px 50px 30px 5x;
+  color:purple;
+}
+
+.profile:hover{
+  transition:400ms;
+  box-shadow: 0 8px 16px 0 crimson;
+  transform: translateY(-3px);
+}
+.email {
+  color: rgb(59, 52, 52);
+  font-size: 18px;
+  overflow-wrap: anywhere;
+}
+.name{
+  font-size:25px;
+  font-weight: inherit;
+  
+}
+.loader{
+  margin-left: 450px;
+  margin-top: 100px;
+  margin-right: 300px;
+  margin-bottom: 100px;
+  
+}
